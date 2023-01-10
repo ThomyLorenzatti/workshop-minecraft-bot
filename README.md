@@ -117,7 +117,7 @@ You will need another module on the documentation to do that good luck!
 ```js
 const mineflayer = require('mineflayer')
 
-const bot = mineflayer.createBot({ username: 'BotOf\_YOUR\_NAME' }) bot.once('spawn', () => {
+const bot = mineflayer.createBot({ username: 'BotOf_YOUR_NAME' }) bot.once('spawn', () => {
     bot.on("EVENT_TO_FIND_IN_PREVIOUSLY_TASK", (username, message) => {
         if (message === 'come' && username === "YOUR_USERNAME") {
           // Code to implement to call bot
