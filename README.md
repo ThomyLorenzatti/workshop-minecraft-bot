@@ -82,16 +82,14 @@ This is where we will create all the code for our bot.
 
 I will give you the base file to have with the base required module, to begin a bot.
 
-```bash 
+```js 
 const mineflayer = require('mineflayer')
 
-const bot = mineflayer.createBot({ username: 'BotOf\_YOUR\_NAME' })
+const bot = mineflayer.createBot({ username: 'BotOf_YOUR_NAME' })
 
 bot.once('spawn', () => {
-
-//Write your code here })
-
-![](Aspose.Words.da7e9ca4-ff39-4574-9b51-f81fdfd9d139.005.png)
+  //Write your code here })
+}
 
 bot.on('kicked', console.log) bot.on('error', console.log) bot.on("end", () => bot = createBot());
 ```
