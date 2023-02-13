@@ -19,7 +19,7 @@ Follow each steps :
 - Install Java jdk and runtime 17
 
 ```bash 
-sudo apt-get install oracle-java17-installer oracle-java17-set-default
+sudo apt install openjdk-17-jdk
 ```
 
 Execute ```java --version``` if there is this output it's good:
@@ -35,7 +35,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 17+35-LTS-2724, mixed mode, sharing)
 Else execute ```sudo update-alternatives --config java``` and choose java17 version.
 
 Link to install Minecraft Launcher if you don't have it : 
-[Minecraft Launcher](https://www.launchershiginima.com/en/v4400/)
+[Minecraft Launcher](https://tlauncher.org/en/)
 
 Link to download server.jar : 
 [Server Jar](https://getbukkit.org/get/bf7ac3b5bc08ea97d22919680d240a80)
