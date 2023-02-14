@@ -89,9 +89,9 @@ const bot = mineflayer.createBot({ username: 'BotOf_YOUR_NAME' })
 
 bot.once('spawn', () => {
   //Write your code here })
-}
+})
 
-bot.on('kicked', console.log) bot.on('error', console.log) bot.on("end", () => bot = createBot());
+bot.on('kicked', console.log); bot.on('error', console.log); bot.on("end", () => bot = createBot());
 ```
 
 Normally if you run your bot.js file with node. Your bot will connect itself to your local server. (Which must be launched obviously)
